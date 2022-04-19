@@ -1,0 +1,19 @@
+.Search{
+    color: teal;
+    border-radius: 50px;
+    border-color: teal;
+}
+.plus{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    background: teal;
+    border-radius: 50%;
+    border: none;
+}
+.Create_Account{
+    background: lightskyblue;
+    box-shadow: 4px 4px black; 
+    border-color: black;
+    color: white;
+}
