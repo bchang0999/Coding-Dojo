@@ -1,0 +1,44 @@
+.container{
+    width: 950px;
+    background-color: silver;
+    margin: 20px auto;
+    padding: 20px;
+}
+.top-nav {
+    height: 162px;
+    background-color: green;
+    margin-top: -10px;
+    display: flex;
+}
+.side-nav {
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    display: flex;
+}
+.main {
+    height: 400px;
+    width: 700px;
+    background-color: red;
+    margin-top: -302px;
+    margin-left: 232px;
+}
+.sub-content {
+    height: 200px;
+    width: 210px;
+    background-color: yellow;
+    display: inline-block;
+    margin-right: 7px;
+}
+#advertisement {
+    height: 120px;
+    width: 660px;
+    background-color: purple;
+    display: flex;
+    margin-left: 20px;
+}
+.row {
+    /* TODO - what should go here? */
+    padding: 20px;
+}
+
