@@ -1,0 +1,55 @@
+.container{
+  height: 239px;
+  width: 500px;
+  background-color: aliceblue;
+  border-style: solid;
+  border-color: gray;
+}
+.top-nav{
+  height: 64px;
+  background-color: darkcyan;
+  display: flex;
+}
+.User{
+  height: 67px;
+  margin-top: -34px;
+  margin-left: 20px;
+}
+.container2{
+  height: 130px;
+  width: 500px;
+  display: flex;
+  }
+  h1{
+    color: black;
+    margin: -8px;
+    margin-left: 14px;
+  }
+  .map{
+    height: 17px;
+    margin: -114px;
+    margin-top: 34px;
+  }
+  h3{
+    margin-left: 125px;
+    margin-top: 30px;
+  }
+  .context{
+    margin: 14px;
+    margin-top: -88px;
+  }
+  .context2{
+    margin: 14px;
+    margin-top: -16px;
+  }
+  .gear{
+    height: 17px;
+    margin: 16px;
+    margin-top: -4px;
+  }
+  .context3{
+    margin: 37px;
+    margin-top: -54px;
+    color: rgb(70, 145, 214);
+    text-decoration: underline;
+  }
