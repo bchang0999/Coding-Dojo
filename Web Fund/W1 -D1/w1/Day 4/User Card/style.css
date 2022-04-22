@@ -1,14 +1,13 @@
 .container{
   height: 239px;
   width: 500px;
-  background-color: aliceblue;
+  background-color: white;
   border-style: solid;
   border-color: gray;
 }
 .top-nav{
   height: 64px;
-  background-color: darkcyan;
-  display: flex;
+  background-color: rgb(37, 161, 161);
 }
 .User{
   height: 67px;
