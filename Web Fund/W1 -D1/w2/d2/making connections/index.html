@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-banner">
+        <div class="banner-options">
+            <h1>Profile</h1>
+            <p>Home</p>
+            <p>My Profile</p>
+            <p>Find Connections</p>
+        </div>
+        <button>Sign Out</button>
+    </div>
+    <div class="giant-container">
+        <div class="container-left">
+            <div class="profile-container">
+                <div class="profile-banner">
+                    <img id="jane" src="jane-m.jpg" alt="Jane Doe">
+                </div>
+                <p id="JaneDoe">Jane Doe</p>
+                <div class="seattle">
+                    <img id="map" src="map-marker.png" alt="map map-marker">
+                    <p>Seattle</p>
+                </div>
+                <br>
+                <div class="developer-master">
+                    <p>Developer | Engineer | Problem Solver</p>
+                    <p>Master of shadows and the Internet!</p>
+                </div>
+                <div class="seattle">
+                    <img id="map" src="gear.png" alt="gear">
+                    <a onclick="change()" href="#">edit profile</a>
+                </div>
+            </div>
+            <div class="educationcontainer">
+                <div class="education-banner">
+                    <b>Education</b>
+                </div>
+                <h2>Coding Dojo - Full stack Bootcamp</h2>
+                <h3>Dec 2019 - Mar 2020</h3>
+                <h4>Triple black belt in Python, MERN, and C# ...</h4>
+            </div>
+        </div>
+        <div class="container-right">
+            <div class="cr-container">
+                <div class="cr-banner">
+                    <p><span>2</span> Connection Requests</p>
+                </div>
+                <br>
+                <div class="todd">
+                    <div class="todd-left">
+                        <img id="Todd" src="todd-s.jpg" alt="todd">
+                        <p>Todd E</p>
+                    </div>
+                    <div class="accept-close">
+                        <img onclick="gone1(this)" id="accept" src="accept-circle.png" alt="accept">
+                        <img onclick="gone1(this)" id="close" src="close-circle.png" alt="close">
+                    </div>
+                </div>
+                <br>
+                <div class="phil">
+                    <div class="phil-left">
+                        <img id="Phil" src="phil-s.jpg" alt="phil">
+                        <p>Phil K</p>
+                        <div class="accept-close">
+                            <img onclick="gone(this)" id="accept" src="accept-circle.png" alt="accept">
+                            <img onclick="gone(this)" id="close" src="close-circle.png" alt="close">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-container">
+                <div class="connection-banner">
+                    <p><span id="friends">500</span>Your Connections</p>
+                </div>
+                <br>
+                <div class="contacts">
+                    <div class="images">
+                        <img id="adrien" src="adrien-s.jpg" alt="adrien">
+                        <a>Adrien D</a>
+                        <br>
+                        <img id="anne" src="anne-s.jpg" alt="anne">
+                        <a>Anne J</a>
+                        <br>
+                        <img id="alayne" src="alayne-s.jpg" alt="alayne">
+                        <a>Alayne T</a>
+                        <br>
+                        <img id="arry" src="arry-s.jpg" alt="arry">
+                        <a>Arry Y</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="connectionsdown">
+                <a href="#">View More</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

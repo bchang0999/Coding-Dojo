@@ -1,0 +1,275 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    transition: 3s;
+}
+
+.container-banner{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    height: 93px;
+    width: 100%;
+}
+h1{
+    color: white;
+    font-size: 50px;
+}
+.banner-options{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+}
+p{
+    color: gray;
+    cursor:pointer;
+    font-size: 30px;
+    transition: 1s;
+    }
+.banner-options p:hover{
+    color: white;
+    font-weight: bold;
+    font-size: x-small;
+    transition: 1s;
+}
+button{
+    color:white;
+    background-color: rgb(31, 146, 199);
+    height: 40px;
+    width: 143px;
+    font-size: medium;
+    box-shadow: 0 0 5px 5px rgb(57, 167, 218);
+}
+.giant-container{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    height: 100%px;
+    width: 85%;
+    margin:0 auto;
+    align-items: flex-start;
+}
+.profile-container{
+    display: flex;
+    background-color: white;
+    margin-top: 50px;
+    box-shadow: 0 0 5px 5px gray;
+    flex-direction: column;
+}
+.profile-banner{
+    background-color: aqua;
+    height: 125px;
+    width: 100%;
+}
+#jane{
+    border-radius: 50%;
+    height: 120px;
+    margin-top: 50px;
+    margin-left: 43px;
+    border: solid black;
+    outline: solid white;
+    box-shadow: 0 0 0 6px gray;
+
+}   
+#JaneDoe{
+    color: black;
+    margin-left: 50px;
+    font-size: 50px;
+    margin-top: 52px;
+}
+.seattle{
+    display: flex;
+    margin-top: 11px;
+    margin-bottom: 15px;
+}
+.seattle p{
+    margin-left: 15px;
+    color: black;
+    font-size: 30px;
+}
+.seattle a{
+    margin-left: 5px;
+    color: rgb(26, 155, 194);
+    margin-top: 13px;
+}
+.developer-master{
+    margin-left: 50px;
+    font-size: 25px;
+}
+#map{
+    width: 20px;
+    margin-left: 50px;
+}
+
+.container-left{
+    flex: 2;
+    margin-right: 49px;
+}
+.container-right{
+    flex: 1;
+    margin-left: 50px;
+}
+.cr-container{
+    display: flex;
+    background-color: white;
+    margin-top: 50px;
+    height: 258px;
+    box-shadow: 0 0 5px 5px gray;
+    flex-direction: column;
+}
+.cr-banner{
+    background-color: rgb(160, 158, 158);
+}
+.cr-banner p{
+    color: white;
+    text-align: center;
+}
+span{
+    border-radius: 60%;
+    background-color: rgb(37, 29, 29);
+    border-width:thick;
+}
+#Todd{
+    width: 80px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+#Phil{
+    width: 80px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+.todd{
+    display: flex;
+    justify-content: space-between;
+}
+.todd-left{
+    display:flex;
+    align-items:center;
+}
+#accept{
+    height: 60px;
+    padding-right: 5px;
+}
+#close{
+    height: 60px;
+    padding-right: 10px;
+}
+.accept-close{
+    margin-left: 367px;
+}
+.phil-left{
+    display:flex;
+    align-items:center ;
+}
+.phil{
+    display: flex;
+    justify-content: space-between;
+}
+.phil-left p{
+    margin-right: 196px;
+}
+.contact-container{
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    margin-top: 65px;
+    box-shadow: 0 0 5px 5px gray;
+}
+.connection-banner{
+    background-color: rgb(160, 158, 158);
+    height: 10%;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.connection-banner p{
+    color: white;
+}
+.contacts{
+    background-color: rgb(255, 255, 255);
+    height: 450;
+    margin-top: -60px;
+    display: flex;
+}
+#adrien{
+    width: 75px;
+    border-radius: 50%;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+#anne{
+    width: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+#alayne{
+    width: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+#arry{
+    width: 75px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.images>a{
+    margin-top: -40px;
+    margin-left: 100px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    color: gray;
+    cursor: pointer;
+    font-size: 30px;
+}
+.connectionsdown{
+    background-color: white;
+    width: 900px;
+    height: 60px;
+    margin-top: 2px;
+    outline: solid gray;
+    box-shadow: 0 0 5px 5px gray;
+}
+.connectionsdown a{
+    font-size: 40px;
+    text-align: center;
+    margin: 16px;
+    color: rgb(54, 145, 230);
+}
+.educationcontainer{
+    background-color: white;
+    width:100%;
+    height: 349px;
+    margin-top: 36px;
+    box-shadow: 0 0 5px 5px gray;
+}
+.education-banner{
+    background-color: rgb(160, 158, 158);
+    width: 100%;
+    height: 40px;
+}
+b{
+    font-size: 40px;
+    color: white;
+    text-align:start;
+    margin: 14px;
+}
+h2{
+    margin-left: 13px;
+    font-size: 40px;
+    margin-top: 14px;
+}
+h3{
+    color: gray;
+    margin-left: 13px;
+    font-size: 35px;
+    margin-top: 5px;
+}
+h4{
+    margin-left: 13px;
+    margin-top: 10px;
+    font-size: 27px;
+}

@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.labelcontainer{
+    height: 47px;
+    width: 710px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.giantcontainer{
+    height: 800px;
+    width: 710px;
+    background-color: white;
+    display: flex;
+
+}
+/* <!-- //---------------------------left side---------------------------// --> */
+.leftcontainer{
+    height:400px;
+    width: 325px;
+    background-color: white;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+/* <!-- //-----------------left Top--------------------// --> */
+.lefttop{
+    height: 228px;
+    width: 323px;
+    border: 2px solid gray;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 23px;
+}
+.ltlabel{
+    background-color: rgb(12, 158, 202);
+    height: 67px;
+    width: 323px;
+}
+.ltlabel img{
+    position: absolute;
+    width: 87px;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+.ltbody{
+    background-color: white;
+    height: 162px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 20px;
+}
+.ltbody h1{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.ltbodyh3{
+    size: 30px;
+    margin-left: 15px;
+}
+.ltbody h3 img{
+    height: 20px;
+}
+#gear{
+    height: 15px;
+}
+.ltbody a{
+    color: blue;
+    text-decoration: underline;
+}
+/* <!-- //-----------------left Bottom--------------------// --> */
+.leftbottom{
+    height: 119px;
+    width: 323px;
+    border: 2px solid gray;
+    margin-top: 22px;
+}
+.lblabel{
+    background-color: rgb(63, 63, 63);
+    height: 35px;
+    width: 313px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+}
+.lbbody{
+    background-color: white;
+    height: 84px;
+    width: 323px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.lblabel {
+    color: white;
+    font-size: 15px;
+}
+.lbbody h1{
+    font-size: 18px;
+    margin-left: 19px;
+}
+.lbbody h3{
+    font-size: 15px;
+    color: gray;
+    margin-left: 22px;
+}
+.lbbody h4{
+    font-size: 15px;
+    color: black;
+    margin-left: 22px;
+}
+
+/* <!-- //---------------------------Right side---------------------------// --> */
+.rightcontainer{
+    height:400px;
+    width: 250px;
+    background-color: white;
+    margin-left: 25px;
+}
+/* <!-- //-----------------Right Top--------------------// --> */
+.righttop{
+    height: 156px;
+    width: 163px;
+    border: 2px solid gray;
+    margin-top: 23px;
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+}
+.rtlabel{
+    height: 36px;
+    width: 164px;
+    background-color:rgb(63, 63, 63) ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.rtlabel p {
+    color: white;
+    font-size: 12px;
+    
+}
+.rtlabel span{
+    background-color: gray;
+    font-size: 15px;
+    border-radius: 50%;
+    padding: 2px 8px ;
+    margin-right: 5px;
+}
+.rtbody{
+    height: 120px;
+    width: 164px;
+    background-color:white ;
+}
+
+/* <!-- //-----------------Right Bottom--------------------// --> */
+.rightbottom{
+    height: 181px;
+    width: 163px;
+    border: 2px solid gray;
+    margin-top: 31px;
+}
+.rblabel{
+    height: 36px;
+    width: 163px;
+    background-color:rgb(63, 63, 63) ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.rblabel p {
+    color: white;
+    font-size: 12px;
+    
+}
+.rblabel span{
+    background-color: gray;
+    font-size: 15px;
+    border-radius: 50%;
+    padding: 2px 8px ;
+    margin-right: 5px;
+}
+.rbbody{
+    height: 145px;
+    width: 163px;
+    background-color:white ;
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}.rtbody .row img{
+    height: 30px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
