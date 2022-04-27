@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="label-container">
+        <div class="label-l">
+            <h1>DojoWeather</h1>
+        </div>
+        <div class="label-r">
+            <p onclick="alert('BURBANK!')">Burbank</p>
+            <p onclick="alert('CHICAGO!!!!!')">Chicago</p>
+            <p onclick="alert('SUPRISE ITS DALLAS!!!!')">Dallas</p>
+        </div>
+    </div>
+
+    <div class="pagecontainer">
+        <div class="topcontainer">
+            <p class="tc-left">San Jose</p>
+            <p class="tc-right">show tempeture in 
+                <select onchange="heat(this)" name="temperture">
+                    <option> &#8457;</option>
+                    <option> &#8451;</option>
+                </select></p>
+        </div>
+        <div class="bottomcontainer">
+            <div class="bc">
+                <div class="bc-top">
+                    <h3>Today</h3>
+                    <img src="some_rain.png" alt="rain">
+                    <p>some rain</p>
+                </div>
+                <div class="bc-bottom">
+                    <p>24 &#176;</p>
+                    <p1>18&#176;</p1>
+                </div>
+            </div>
+            <div class="bc">
+                <div class="bc-top">
+                    <h3>Tomorrow</h3>
+                    <img src="some_sun.png" alt="sunny">
+                    <p>some sun</p>
+                </div>
+                <div class="bc-bottom">
+                    <p>27 &#176;</p>
+                    <p1>19&#176;</p1>
+                </div>
+            </div>
+            <div class="bc">
+                <div class="bc-top">
+                    <h3>Saturday</h3>
+                    <img src="some_clouds.png" alt="cloudy">
+                    <p>some clouds</p>
+                </div>
+                <div class="bc-bottom">
+                    <p>21 &#176; </p>
+                    <p1>16&#176;</p1>
+                </div>
+            </div>
+            <div class="bc">
+                <div class="bc-top">
+                    <h3>Saturday</h3>
+                    <img src="some_sun.png" alt="sunny">
+                    <p>some sun</p>
+                </div>
+                <div class="bc-bottom">
+                    <p>26 &#176;</p>
+                    <p1>21&#176;</p1>
+                </div>
+            </div>
+        </div>
+        <div id="cookie">
+            <img src="cookie.png" alt="cookie">
+            <div class="cookieText">
+                <h2>Stop! Cookie time</h2>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads to provide soocial media features and to analyse our traffic.
+                    <a href="#">Read more...</a> </p>
+            </div>
+            <button onclick="cookieMonster()">I Accept</button>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
