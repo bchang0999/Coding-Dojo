@@ -1,0 +1,14 @@
+button{
+    height: 80px;
+    width: 200px;
+    background-color: aqua;
+}
+p{
+    height: 80px;
+    width: 200px;
+    background-color: aqua;
+}
+.glow{
+    font-weight: 900;
+    height: 100px;
+}
